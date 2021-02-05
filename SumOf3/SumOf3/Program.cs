@@ -21,11 +21,11 @@ namespace SumOf3
             Double Number3;
             Console.WriteLine("Enter a third number between 1 and 5.5>>");
             String Number3AsString = Console.ReadLine();
-            Number2 = Convert.ToDouble(Number3AsString);
+            Number3 = Convert.ToDouble(Number3AsString);
 
-            double Total = Number1 + Number2 + Number3;
-            double Answer = Total * MAGIC_Number;
-            string Final = Answer.ToString("F3");
+            Double Total = Number1 + Number2 + Number3;
+            Double Answer = Total * MAGIC_Number;
+            String Final = Answer.ToString("F3");
             Console.WriteLine(Final);
 
 
